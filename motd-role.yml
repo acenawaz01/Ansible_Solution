@@ -1,0 +1,8 @@
+---
+- name: use motd role playbook
+  hosts: localhost
+  user: ansible
+  become: true
+  roles:
+    - role: stats
+      #system_manager: admin@gmail.com
